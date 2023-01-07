@@ -1,0 +1,315 @@
+body {}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* banner style start here */
+#banner {
+    background-image: url(../images/banner/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin-bottom: 130px;
+    padding-top: 216px;
+}
+
+.banner-info {
+    padding-right: 634px;
+    padding-bottom: 167px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.banner-text {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 35px;
+    color: #444343;
+}
+
+.btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+}
+
+/* banner css end here */
+
+/* my failuers start here */
+#failure {
+    background: #FFFFFF;
+    margin-bottom: 130px;
+}
+
+#failure .main-container {
+    display: flex;
+    align-items: center;
+}
+
+#failure .failure-img {
+    width: 100%;
+}
+
+#failure .failure-img img {
+    width: 100%;
+}
+
+#failure .failure-text {
+    text-align: left;
+    margin-left: 85px;
+}
+
+#failure .failure-text h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 24px;
+    color: #151414;
+    padding-right: 50px;
+}
+
+#failure .failure-text p {
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    color: #444343;
+    padding-right: 82px;
+}
+
+#failure .main-container .failure-text ul li {
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    color: #444343;
+}
+
+/* my failuers end here */
+
+/* success part start here */
+#success {
+    background: #FFFFFF;
+    margin-bottom: 130px;
+}
+
+#success .main-container {
+    display: flex;
+    align-items: center;
+}
+
+#success .success-img {
+    width: 100%;
+}
+
+#success .success-img img {
+    width: 100%;
+}
+
+#success .success-text {
+    text-align: left;
+    margin-left: 85px;
+}
+
+#success .success-text h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 24px;
+    color: #151414;
+    padding-right: 50px;
+}
+
+#success .success-text p {
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    color: #444343;
+    padding-right: 82px;
+}
+
+#success .main-container .success-text ul li {
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 8px;
+    color: #444343;
+}
+
+/* success part end here */
+
+/* plane css start here */
+#plane {
+    text-align: center;
+    margin-bottom: 124px;
+}
+
+#plane .title {
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+#plane .plane-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+#plane .plane-items .item h4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+}
+
+#plane .plane-items .item p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+/* plane css end here */
+
+/* positive mindset css start here */
+#positive {
+    margin-bottom: 130px;
+}
+
+#positive .positive-text {
+    position: relative;
+    background: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 60px 92px 60px;
+}
+
+#positive .positive-text .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#positive .positive-text h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-right: 557px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 34px;
+}
+
+#positive .positive-text a {
+    color: #F15B22;
+    padding: 21px 36px;
+    background: #FFFFFF;
+    position: relative;
+    z-index: 10;
+    border-radius: 5px;
+
+}
+
+/* positive mindset css end here */
+
+footer {
+    background: #151414;
+    padding: 130px 0;
+}
+footer .footer-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-left h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+}
+
+.footer-left p {
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    padding-right: 320px
+}
+
+.footer-left ul li {
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.footer-left .icons {
+    padding-top: 32px;
+}
+.footer-left .icons img {
+    margin-right: 17px;
+}
+
+.footer-right h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+}
+
+.footer-right form .email-box {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 325px;
+    height: 64px;
+    font-size: 26px;
+    background: transparent;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.footer-right form ::placeholder {
+    color: #FFFFFF;
+}
+
+.footer-right form .btn {
+    cursor: pointer;
+    color: red;
+    background: #FFFFFF;
+}
